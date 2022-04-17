@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+html{
+    background: url(https://images.unsplash.com/photo-1486591913781-4bee9ed65bfe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav-wrapper{
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    /* background-color: blueviolet; */
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.nav li{
+    padding: 0 15px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.nav li a{
+    text-decoration: none;
+}
+
+.nav li a:link{
+    color: white;
+}
+
+.nav li a:visited{
+    color: white;
+}
+
+.nav li a:hover{
+    color: skyblue;
+}
+
+.main-text{
+    text-align: center;
+    padding: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(75, 75, 75, 0.582);
+
+    overflow: hidden;
+
+    position: relative;
+
+    margin: 30px;
+
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px)
+}
+
+.card-banner img{
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card-body{
+    margin: 240px 15px 15px 15px;
+}
+
+.hastag{
+    font-size: 12px;
+    color: rgb(64, 92, 250);
+}
+.title{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 15px;
+}
+
+
+.profile-content img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    object-fit: cover;
+
+    position: absolute;
+    left: 18px;
+}
+
+.profile{
+    background-color: white;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(73, 73, 73, 0.151);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+    padding: 30px;
+    margin: 30px;
+}
+
+.profile-content{
+    display: flex;
+    align-items: center;
+}
+
+.detail{
+    margin-left: 95px;
+}
+
+.profile a{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+
+    transition: 0.3s;
+}
+.name{
+    font-weight: 700;
+}
+.date{
+    font-size: 13px;
+}
+.place{
+    font-size: 13px;
+    color: orange;
+    font-weight: 600;
+}
+
+.profile-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.profile-top{
+    background-color: rgba(255, 255, 255, 0.945);
+
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profile-top h4{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 40px;
+    color: orange;
+}
+
+.profile a:hover{
+    background-color: orangered;
+}
